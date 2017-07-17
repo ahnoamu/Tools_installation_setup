@@ -1,7 +1,11 @@
 # setup
 #install Amber-tools
 
+
 #install Autodock-vina
+sudo apt-get install autodock-vina
+
+#install mglTools
 cd /home/arnold/
 wget "http://mgltools.scripps.edu/downloads/downloads/tars/releases/REL1.5.6/mgltools_x86_64Linux2_1.5.6.tar.gz"
 tar -zxvf mgltools_x86_64Linux2_1.5.6.tar.gz
@@ -11,4 +15,4 @@ alias pmv='/home/arnold/mgltools_x86_64Linux2_1.5.6/bin/pmv'
 alias adt='/home/arnold/mgltools_x86_64Linux2_1.5.6/bin/adt'
 alias vision='/home/arnold/mgltools_x86_64Linux2_1.5.6/bin/vision'
 alias pythonsh='/home/arnold/mgltools_x86_64Linux2_1.5.6/bin/pythonsh'
-export PATH="$PATH:/home/arnold/mgltools_x86_64Linux2_1.5.6/MGLToolsPckgs/"
+export PATH="$PATH:/home/arnold/mgltools_x86_64Linux2_1.5.6/MGLToolsPckgs/AutoDockTools/Utilities24/"
