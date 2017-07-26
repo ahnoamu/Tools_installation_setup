@@ -16,3 +16,10 @@ alias adt='/home/arnold/mgltools_x86_64Linux2_1.5.6/bin/adt'
 alias vision='/home/arnold/mgltools_x86_64Linux2_1.5.6/bin/vision'
 alias pythonsh='/home/arnold/mgltools_x86_64Linux2_1.5.6/bin/pythonsh'
 export PATH="$PATH:/home/arnold/mgltools_x86_64Linux2_1.5.6/MGLToolsPckgs/AutoDockTools/Utilities24/"
+
+#install ligplot+
+#Register to download .zip file
+unzip LigPlus.zip
+echo 'alias ligplus="java -cp ~/path/to/LigPlus -jar ~/path/to/LigPlus/LigPlus.jar"' >> ~/.bashrc 
+source ~/.bashrc
+
