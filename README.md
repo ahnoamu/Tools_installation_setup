@@ -23,3 +23,17 @@ unzip LigPlus.zip
 echo 'alias ligplus="java -cp ~/path/to/LigPlus -jar ~/path/to/LigPlus/LigPlus.jar"' >> ~/.bashrc 
 source ~/.bashrc
 
+#Install MEGA in linux
+REF: http://insidemega.blogspot.co.za/2014/01/install-mega5-on-linux-ubuntu.html
+sudo apt-get install wine
+sudo apt-get install winetricks
+#Run winetrix: select default wineprefix option
+#install a windows dll or component
+#install Internet Explorer 7 (ie7)
+#install gdiplus
+#install  msxml3 #download from pop-up window, paste in popup directory
+#Download MEGA6 from windowsGUI http://www.megasoftware.net
+#install 
+wine MEGA6.06_setup.exe
+
+
