@@ -36,4 +36,11 @@ sudo apt-get install winetricks
 #install 
 wine MEGA6.06_setup.exe
 
+#Update R to version 3.4.2
+sudo apt-get remove r-base-core
+sudo add-apt-repository ppa:marutter/rrutter
+sudo apt-get update && sudo apt-get install r-base r-base-dev
+
+
+
 
