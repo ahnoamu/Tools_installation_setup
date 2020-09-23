@@ -78,6 +78,7 @@ conda install -c conda-forge r-foreign
 install.packages("rpanel", dependencies = TRUE)
 install.packages("SpatialEpi", dependencies=TRUE)
 ## Activate conda environment before running R
+conda activate rsf
 #========================
 
 
